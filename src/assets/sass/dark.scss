@@ -1,0 +1,71 @@
+html.dark {
+    --primary-color: #081e3c;
+    --secondary-color: #f6b23b;
+    --border-color: #133668;
+    --white-color: #081e3c;
+    --text-color: #fff;
+
+    .menu {
+        ul {
+            li>* {
+                &:hover {
+                    color: var(--secondary-color);
+                }
+            }
+        }
+    }
+
+    .search-box {
+        border-color: var(--border-color);
+
+        button {
+            background: var(--secondary-color);
+        }
+    }
+
+    .product-item {
+        .product-content {
+            color: var(--primary-color);
+        }
+    }
+
+    .MuiAutocomplete-root.MuiAutocomplete-hasPopupIcon {
+        padding: 10px;
+        background: #fff;
+        border-radius: 12px;
+    }
+
+    .MuiBox-root {
+        background: var(--white-color) !important;
+
+        .basket-bottom {
+            background: #081934;
+        }
+    }
+
+    .product-qty {
+        border-color: var(--secondary-color);
+        color: var(--secondary-color);
+
+        >input {
+            background: transparent;
+            color: var(--secondary-color);
+        }
+
+        >div {
+            color: var(--secondary-color);
+        }
+    }
+
+    .MuiTabs-flexContainer>button {
+        color: #fff;
+
+        &.Mui-selected {
+            color: #1976d2;
+        }
+    }
+
+    .css-1gsv261 {
+        border-color: transparent;
+    }
+}
